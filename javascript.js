@@ -16,3 +16,7 @@ function getComputerChoice() {
             break;
     }
 }
+
+function getUserChoice() {
+    return window.prompt("Please input your action(\"rock\" \"paper\" \"scissors\"): ", "rock");
+}
